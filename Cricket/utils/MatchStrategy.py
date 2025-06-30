@@ -11,7 +11,7 @@ class BaseMatchStrategy(ABC):
     def __init__(self) -> None:
         self.runs_weight: List[Tuple[int, float]] = [
             (1, 0.3),
-            (1, 0.5),
+            (1, 0.5),a
             (2, 0.5),
             (3, 0.1),
             (4, 0.3),
